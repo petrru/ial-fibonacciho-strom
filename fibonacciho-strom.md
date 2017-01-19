@@ -26,18 +26,18 @@ vás bude bavit (nebo kolik jich budou chtít v zadání).
 
 Teď už jenom zbývá nakreslit pravé syny u těch všech uzlů, co jsme si teď přidělali.
 Opět začneme odspodu, tj. nejdříve uděláme pravého syna k dvojce. Až to budeme mít,
-tak pak uděláme pravýho syna ke trojce, pětce, osmičce atd...
+uděláme pravýho syna ke trojce, pětce, osmičce atd...
 
 Ale nejdříve tu dvojku. Podíváme se na jejího levého syna *(tam je jednička)* a od něj
 ještě jednou na levého syna *(to už bude ta nula)*. Jinými slovy, od tý dvojky se podíváme
 o dva syny dolů *(vždycky levého)*. Teď vezmeme strukturu toho vnuka *(nuly)*
-a obkreslíme jí jako pravého syna ke dvojce, ze které jsme vycházeli *(kdyby ta
+a obkreslíme jí jako pravého syna ke dvojce, ze které jsme vycházely *(kdyby ta
 nula měla nějaké syny, tak je obkreslíme taky; u dalších čísel bude tohle názornější)*.
 Jaký čísla budeme do toho pravého stromu psát zatím neřešíme.
 
 ![Strom](obr3.jpg)
 
-Teď už zbývá vyřešit jenom ty čísla v pravém stromu. Jsou stejná, jako u toho malého stomu,
+Teď už zbývá vyřešit jenom ty čísla v pravém stromu. Jsou stejná, jako u toho prvního stomu,
 který jsme obkreslovali, akorát se k nim přičte dvojka *(to číslo, ke kterému děláme pravého syna)*.
 
 ![Strom](obr4.jpg)
